@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fazilem Designer👗</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fazilem Designer 👗</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <!-- Header -->
   <header>
-    <h1 class="logo">Fazilem Designer</h1>
+    <div class="logo">Fazilem <span>Designer</span></div>
     <nav id="nav-menu">
       <a href="#home">Bosh sahifa</a>
       <a href="#collection">Kiyimlar</a>
@@ -24,7 +24,7 @@
   <!-- Hero section -->
   <section id="home" class="hero">
     <div class="hero-content">
-   
+      <img src="img/image copy 3.png" alt="Fashion design" class="hero-img" />
       <h2>Har bir tikuvda nafislik 💫</h2>
       <p>O‘ziga xos, zamonaviy va o‘zbekona liboslar to‘plami.</p>
       <a href="#collection" class="btn">Kiyimlarni ko‘rish</a>
@@ -33,31 +33,42 @@
 
   <!-- Collection -->
   <section id="collection" class="collection">
-    <h2>🩷 Kiyimlar to‘plami</h2>
+    <h2>Kiyimlar to‘plami</h2>
     <div class="grid">
       <div class="item">
-        <img src="img/sample1.jpg" alt="Atlas libos">
-        <h3>Atlas libos</h3>
-        <p>Bayramlar uchun nafis tanlov</p>
-        <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        <img src="img/image copy.png" alt="Atlas libos" />
+        <div class="info">
+          <h3>Atlas libos</h3>
+          <p>Bayramlar uchun nafis tanlov</p>
+          <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        </div>
       </div>
+
       <div class="item">
-        <img src="img/sample2.jpg" alt="Zamonaviy ko‘ylak">
-        <h3>Zamonaviy ko‘ylak</h3>
-        <p>Yozgi kolleksiya 2025</p>
-        <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        <img src="img/image copy 2.png" alt="Zamonaviy ko‘ylak" />
+        <div class="info">
+          <h3>Zamonaviy ko‘ylak</h3>
+          <p>Yozgi kolleksiya 2025</p>
+          <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        </div>
       </div>
+
       <div class="item">
-        <img src="img/sample3.jpg" alt="Milliy libos">
-        <h3>Milliy libos</h3>
-        <p>An’anaviy va zamonaviy uyg‘unlik</p>
-        <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        <img src="img/image.png" alt="Milliy libos" />
+        <div class="info">
+          <h3>Milliy libos</h3>
+          <p>An’anaviy va zamonaviy uyg‘unlik</p>
+          <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        </div>
       </div>
+
       <div class="item">
-        <img src="img/sample4.jpg" alt="Kundalik uslub">
-        <h3>Kundalik uslub</h3>
-        <p>Quvnoq, yorqin va qulay</p>
-        <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        <img src="img/image copy 4.png" alt="Kundalik uslub" />
+        <div class="info">
+          <h3>Kundalik uslub</h3>
+          <p>Quvnoq, yorqin va qulay</p>
+          <a href="https://t.me/yourtelegram" class="btn-small">Buyurtma berish</a>
+        </div>
       </div>
     </div>
   </section>
@@ -68,16 +79,13 @@
     <p>Telefon: <a href="tel:+998901234567">+998 90 123 45 67</a></p>
     <p>Instagram: <a href="https://instagram.com/your_instagram" target="_blank">@your_instagram</a></p>
     <p>Telegram: <a href="https://t.me/yourtelegram" target="_blank">@yourtelegram</a></p>
-    <p class="copyright">© 2025 Gulnoza Atelier. Barcha huquqlar himoyalangan.</p>
+    <p class="copyright">© 2025 Fazilem Designer. Barcha huquqlar himoyalangan.</p>
   </footer>
 
   <script>
-    // Mobil menyu uchun
     const menuToggle = document.getElementById('menu-toggle');
     const navMenu = document.getElementById('nav-menu');
-    menuToggle.addEventListener('click', () => {
-      navMenu.classList.toggle('active');
-    });
+    menuToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
   </script>
 </body>
 </html>
